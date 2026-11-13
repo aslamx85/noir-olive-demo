@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOIR & OLIVE — Restaurant Experience</title>
+<meta name="description" content="A luxury dining experience. Explore the menu, discover our story and reserve your table.">
+<style>
+:root{--ink:#171914;--cream:#f4f0e7;--gold:#b99a62;--muted:#a7a394;--line:#d8d0c0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+a{color:inherit;text-decoration:none}.top{background:#171914;color:#f4f0e7;padding:18px 6vw;display:flex;justify-content:space-between;align-items:center;position:absolute;z-index:2;width:100%;border-bottom:1px solid #ffffff28}
+.brand{font-size:19px;letter-spacing:.22em}.brand small{display:block;font:9px Arial;letter-spacing:.38em;color:var(--gold);margin-top:5px}
+nav{display:flex;gap:28px;font:11px Arial;letter-spacing:.16em;text-transform:uppercase}nav a:hover{color:var(--gold)}
+.hero{min-height:90vh;background:linear-gradient(90deg,#10130fe8 0%,#10130f9c 43%,#10130f20 100%),url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=85') center/cover;display:flex;align-items:center;color:white;padding:150px 9vw 90px}
+.kicker{font:10px Arial;letter-spacing:.35em;color:var(--gold);text-transform:uppercase}.hero h1{font-size:clamp(52px,8vw,108px);font-weight:400;line-height:.94;max-width:760px;margin:24px 0}.hero p{font:14px/1.8 Arial;color:#e4dfd2;max-width:420px}.btn{display:inline-block;border:1px solid var(--gold);padding:16px 24px;margin-top:20px;font:10px Arial;letter-spacing:.2em;text-transform:uppercase;color:white;transition:.2s}.btn:hover{background:var(--gold);color:#171914}
+.section{padding:100px 9vw}.intro{display:grid;grid-template-columns:1fr 1.2fr;gap:9vw;align-items:center}.intro h2,.menu h2,.visit h2{font-size:clamp(36px,5vw,62px);font-weight:400;line-height:1.05;margin:18px 0}.intro p,.menu p,.visit p{font:14px/1.9 Arial;color:#68695f}.photo{min-height:440px;background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85') center/cover}
+.menu{background:#20231d;color:#f4f0e7}.menu p{color:#c1c0b5}.menu-head{text-align:center;max-width:620px;margin:0 auto 48px}.dishes{display:grid;grid-template-columns:1fr 1fr;gap:0 60px}.dish{padding:22px 0;border-bottom:1px solid #ffffff30}.dishline{display:flex;justify-content:space-between;gap:15px;font-size:19px}.dish span:last-child{color:var(--gold);white-space:nowrap}.dish small{display:block;font:11px/1.6 Arial;color:#b6b5a9;margin-top:8px}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:12px;padding:12px}.gallery div{height:280px;background-size:cover;background-position:center}.g2{background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80')}.g3{background-image:url('https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=900&q=80')}
+.visit{background:#e9e3d7;display:grid;grid-template-columns:1fr 1fr;gap:7vw}.details{border-top:1px solid var(--line);padding:18px 0;margin-top:24px;font:13px/1.8 Arial}.footer{background:#171914;color:#f4f0e7;padding:45px 9vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font:10px Arial;letter-spacing:.16em}
+@media(max-width:700px){nav{gap:12px;font-size:9px}.brand{font-size:15px}.hero{min-height:82vh;padding-left:7vw}.section{padding:72px 7vw}.intro,.visit{grid-template-columns:1fr}.photo{min-height:300px}.dishes{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery div{height:180px}.gallery div:first-child{grid-column:span 2}.footer{padding:35px 7vw}}
+</style>
+</head>
+<body>
+<header class="top"><a class="brand" href="#">NOIR & OLIVE<small>THE ART OF DINING</small></a><nav><a href="#story">Our story</a><a href="#menu">Menu</a><a href="#visit">Visit</a></nav></header>
+<main>
+<section class="hero"><div><div class="kicker">A modern dining destination</div><h1>Where flavour<br>meets feeling.</h1><p>An intimate table, thoughtful ingredients and an evening worth remembering. Welcome to a slower, more beautiful way to dine.</p><a class="btn" href="#menu">Explore the menu</a></div></section>
+<section class="section intro" id="story"><div><div class="kicker">Our philosophy</div><h2>Made with care.<br>Served with soul.</h2><p>At NOIR & OLIVE, every detail has a purpose — from seasonal ingredients to the warmth of the welcome. Settle in, share something wonderful and make the evening yours.</p><a class="btn" style="color:#171914" href="#visit">Discover our space</a></div><div class="photo" role="img" aria-label="Elegant restaurant dining room"></div></section>
+<section class="section menu" id="menu"><div class="menu-head"><div class="kicker">A taste of our table</div><h2>The menu</h2><p>A sample menu for this design concept. Replace dishes, descriptions and prices with the client's approved menu before publishing.</p></div><div class="dishes">
+<div class="dish"><div class="dishline">Burrata & Heirloom Tomato <span>AED 58</span></div><small>Stone fruit, basil oil, toasted sourdough</small></div>
+<div class="dish"><div class="dishline">Wild Mushroom Risotto <span>AED 82</span></div><small>Porcini, aged parmesan, fresh thyme</small></div>
+<div class="dish"><div class="dishline">Charcoal-Grilled Sea Bass <span>AED 118</span></div><small>Lemon beurre blanc, fennel, garden herbs</small></div>
+<div class="dish"><div class="dishline">Slow-Braised Short Rib <span>AED 138</span></div><small>Silky potato purée, glazed baby carrots</small></div>
+<div class="dish"><div class="dishline">Pistachio Milk Cake <span>AED 46</span></div><small>Rose cream, roasted pistachio</small></div>
+<div class="dish"><div class="dishline">Dark Chocolate Fondant <span>AED 48</span></div><small>Vanilla bean, seasonal berries</small></div>
+</div></section>
+<section class="gallery" aria-label="Food gallery"><div style="background-image:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1100&q=85')"></div><div style="background-image:url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85')"></div><div style="background-image:url('https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=900&q=85')"></div></section>
+<section class="section visit" id="visit"><div><div class="kicker">Join us</div><h2>Your table<br>is waiting.</h2><p>For reservations, private dining and special occasions, get in touch. This is a sample business identity; update contact details and location for the real restaurant.</p><a class="btn" style="color:#171914" href="https://wa.me/971500000000?text=Hello%2C%20I%27d%20like%20to%20make%20a%20reservation." target="_blank" rel="noopener">WhatsApp reservations</a></div><div><div class="details"><b>FIND US</b><br>Restaurant address · Dubai, UAE<br><a href="https://maps.google.com/?q=Dubai" target="_blank" rel="noopener">Open map ↗</a></div><div class="details"><b>OPENING HOURS</b><br>Daily · 12:00 PM – 11:00 PM</div><div class="details"><b>FOLLOW ALONG</b><br><a href="https://instagram.com/" target="_blank" rel="noopener">@yourrestaurant</a></div></div></section>
+</main><footer class="footer"><span>NOIR & OLIVE · THE ART OF DINING</span><span>DEMO CONCEPT · NOT A REAL RESTAURANT</span><span>© 2026</span></footer>
+</body></html>
